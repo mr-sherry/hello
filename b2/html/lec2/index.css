@@ -1,0 +1,27 @@
+.parent {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  height: 400px;
+}
+.child {
+  width: 100px;
+
+  border: 2px solid black;
+}
+
+#child1 {
+  /* flex-basis: 300px; */
+  /* width: 300px; */
+  height: 200px;
+  /* flex: 3 0 300px; */
+  align-self: flex-end;
+}
+.bg-image {
+  height: 800px;
+  width: 1000px;
+  border: 2px solid black;
+  background-image: url('./images.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
