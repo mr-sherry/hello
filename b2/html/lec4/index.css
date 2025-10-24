@@ -1,0 +1,52 @@
+.parentGrid {
+  width: 100%;
+  height: 100vh;
+  background: red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 100px;
+}
+.gridChild {
+  border: 2px solid black;
+}
+#firstChild {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#lastChild {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-column: 1 / span 3;
+  grid-row-start: 2;
+}
+#childSecondLast {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+#childTwo {
+  /* grid-column-start: 1; */
+  grid-column: 1 / span 3;
+  /* grid-row-start: 4; */
+  grid-row: 4 / span 2;
+}
+#childTwo:hover {
+  background: aqua;
+}
+.p2 {
+  height: 100vh;
+  background: yellow;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.c2 {
+  border: 2px solid black;
+}
+#childone {
+  /* align-self: self-start;
+  justify-self: end; */
+  place-self: end;
+}
+#child3 {
+  align-self: center;
+  justify-self: center;
+}
