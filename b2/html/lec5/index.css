@@ -1,0 +1,71 @@
+.mainDiv {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 320px;
+}
+.childs {
+  width: 100px;
+  height: 100px;
+  border: red 1px solid;
+  color: yellow;
+  background-color: aqua;
+}
+#child2 {
+  top: 20px;
+  position: absolute;
+  z-index: 4;
+}
+#child3 {
+  top: 40px;
+  position: absolute;
+  color: blue;
+  z-index: 3;
+}
+
+#child1 {
+  top: 60px;
+  position: absolute;
+  color: red;
+  background-color: white;
+  z-index: 1;
+}
+
+.mainDiv2 {
+  /* width: 200px; */
+  /* height: 50px; */
+  background-color: black;
+  color: aqua;
+  /* overflow-x: scroll; */
+  /* word-wrap: none; */
+  /* white-space: nowrap; */
+  /* overflow-x: scroll; */
+  /* overflow: auto; */
+}
+
+.mainDiv2 img {
+  float: inline-start;
+}
+
+.anchor {
+  color: brown;
+}
+.anchor:visited {
+  color: black;
+}
+input {
+  color: black;
+}
+input:focus {
+  background-color: black;
+  color: white;
+}
+
+button {
+  all: initial;
+  border: 2px solid red;
+}
+
+button:active {
+  background-color: yellow;
+}
